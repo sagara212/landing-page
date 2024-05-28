@@ -1,0 +1,121 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightgray;
+}
+
+div {
+  width: 80%;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.header {
+  background-color: rgb(255, 217, 0);
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+.nav {
+  background-color: black;
+  display: flex;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav ul li a:hover {
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+}
+
+.main {
+  display: flex;
+  background-color: white;
+}
+
+.content {
+  width: 100%;
+  margin: 0;
+  background-color: white;
+  padding: 20px;
+}
+
+.content .artikel {
+  margin-top: 10px;
+  margin-left: 0;
+  width: 100%;
+  background-color: white;
+  border: 2px solid lightgray;
+  padding: 10px;
+  line-height: 1.6em;
+  border-radius: 10px;
+}
+
+.content .artikel:hover {
+  background-color: bisque;
+}
+
+.content .artikel .read {
+  color: black;
+  border: 1px solid lightgray;
+  width: 110px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.content .artikel .read a {
+  color: black;
+}
+
+.content .artikel .read:hover {
+  background-color: yellow;
+}
+
+.sidebar {
+  justify-content: left;
+  border: 1px solid lightgray;
+  background-color: white;
+  width: 40%;
+  margin: 0;
+  padding: 20px;
+}
+
+.sidebar h4 {
+  text-align: left;
+}
+
+.sidebar a {
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+.sidebar a:hover{
+    background-color: yellow;
+    border: 5px solid yellow;
+    border-radius: 5px;
+}
+
+.sidebar ul li {
+  list-style: none;
+  line-height: 3em;
+}
+
+.footer {
+  background-color: rgb(255, 217, 0);
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
